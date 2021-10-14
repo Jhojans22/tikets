@@ -1,6 +1,6 @@
 body
 {
-
+background: #019ca1;
 }
 
 #img1
@@ -8,12 +8,11 @@ body
    max-width: 30%; 
    height: auto; 
    width: auto;
-  
 }
 
 #inicio
 {
-    background: #ad4d0e;
+    background: #ffffff;
     box-shadow  : 0px 2px 20px 0px rgba(0,0,0,0.5);
     color:rgb(240, 240, 240);
     font-weight: bold;
@@ -24,7 +23,7 @@ body
 
 nav
 {
-    background: #cc8605;
+    background: #023335;
     color:rgb(240, 240, 240);
     font-weight: bold;
     text-align: center;
