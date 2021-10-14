@@ -6,44 +6,51 @@
         <meta name="robots" content="index,follow"> 
         <title>Tikets Online</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="estilos/estilo.css" />
-        <link rel="stylesheet" href="estilos/compra.css" />
+        <link rel="stylesheet" href="./estilos/estilo.css" />
+        <link rel="stylesheet" href="./estilos/compra.css" />
     </head>
     <body>
         <hader>
-            <nav class="Menu-list">
-                <dl>
-                    <a href="index.html">Inicio</a> &nbsp;
-                    <a href="compra.html">Comprar</a>&nbsp;
-                    <a href="#">Contacto</a>&nbsp;
-                    <a href="#">Nosotros</a>&nbsp;
-                </dl>              
+            <nav>
+                <ul class="Menu-list">
+                    <li class="menu-nav-item"><a href="index.html">Inicio</a> </li>
+                    <li class="menu-nav-item"><a href="./compra.html">Comprar</a></li>
+                    <li class="menu-nav-item"><a href="#">Contacto</a></li>
+                    <li class="menu-nav-item"><a href="#">Nosotros</a></li> 
+                </ul>             
             </nav>
         </hader>
         <main>
             <section>
-                <div id="inicio">
-                    <figure>
-                        <img src="./img/ticket.png" alt="image ticket" id="img1" />
-                      </figure>
-                </div>
-            </section> <br>
-            <div id="form">
-                <form action="">
+                <div class="titulo">
+                    <img class ="titulo-img" src="./img/ticket.png" alt="image ticket" />
+                    <img class ="titulo-img2" src="./img/ticket.png" alt="image ticket" />
+                    <h1 class ="titulo-texto">BIENVENIDO A TIKETS ONLINE</h1>
+                 </div>
+            </section> 
+            <br>
+            <div class="form">
+                <br action="">
                     <label for="nombre y apellido">
-                        <span>Nombre y apellido</span><br>
+                        <span>Nombre y apellido</span>
+                        <br>
                         <input type="text"  name="nombre y apellido" id="nombre" placeholder="Tu nombre y apellido" autocomplete="name" required/>
                     </label> 
                     <br>
+                    <br>
                     <label for="Correo">
-                        <span>Correo electrónico</span><br>
+                        <span>Correo electrónico</span>
+                        <br>
                         <input type="email" name="correo" id="Correo" placeholder="Correo electronico" autocomplete="email" required/>
                     </label> 
                     <br>
+                    <br>
                     <label for="numero">
-                        <span>Número de telefono </span><br>
+                        <span>Número de telefono </span>
+                        <br>
                         <input type="text" name="numero" id="numero" placeholder="Tu telefono" autocomplete="tel" required/>
                     </label>
+                    <br>
                     <br>
                     <span>Desde</span>
                     <br>
@@ -56,6 +63,7 @@
                             <option value="Pasto"></option>
                         </datalist>
                     <br>
+                    <br>
                     <span>Hacia</span>
                     <br>
                     <input list="entrada" placeholder="Ciudad de destino" required/>
@@ -67,17 +75,21 @@
                             <option value="Pasto"></option>
                         </datalist>
                     <br>
+                    <br>
                     <label for="Dia-salida">
                         <span>Salida</span><br>
                         <input type="datetime-local" id="Dia-salida" required/>
                      </label> 
                     <br>
+                    <br>
                     <label for="Dia-llegada">
                         <span>Vuelta</span><br>
                         <input type="datetime-local" id="Dia-llegada" required/>
                     </label>
-                    <br><br>
-                    <input type="submit"/>                     
+                    <br>
+                    <br>
+                    <input type="submit"/>
+                    <br></br> 
                 </form>
             </div>
         </main> 
